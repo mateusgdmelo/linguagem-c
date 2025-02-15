@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <locale.h>
-
+//const dentro da função principal
 void main() {
   setlocale(LC_ALL, "Portuguese");
 
