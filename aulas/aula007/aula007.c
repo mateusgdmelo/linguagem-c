@@ -3,7 +3,8 @@
 
 void main() {
   setlocale(LC_ALL, "Portuguese");
-  const int MAIOR_IDADE = 21;
-  printf("%i", MAIOR_IDADE);
-  
+
+  const char NOME[] = "Mateus";
+  const int IDADE = 28;
+  printf("Meu nome é %s e a minha idade é %i.",  NOME, IDADE);
 }
