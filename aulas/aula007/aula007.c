@@ -6,5 +6,6 @@ void main() {
 
   const char NOME[] = "Mateus";
   const int IDADE = 28;
-  printf("Meu nome é %s e a minha idade é %i.",  NOME, IDADE);
+  printf("Meu nome Ã© %s e a minha idade Ã© %i.",  NOME, IDADE);
+  prinf("Hello World");
 }
