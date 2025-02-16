@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <locale.h>
 
+//lendo números
 void main() {
-    //setlocale(LC_ALL, "Portuguese");
+    setlocale(LC_ALL, "Portuguese");
 
     int n;
     float m;
@@ -12,7 +13,4 @@ void main() {
     printf("Digite um número real: ");
     scanf("%f", &m);
     printf("Você acabou de digitar o valor %i e o valor %.1f. Obrigado!", n, m);
-
-
-
 }
